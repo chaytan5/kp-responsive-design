@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  background-color: #23424A;
+}
+
+.container {
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.hero__text {
+  color: white;
+  width: 55%;
+}
+
+.hero__text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero__text p {
+  font-size: 21px;
+  font-weight: lighter;
+}
+
+.hero__img {
+  width: 35%;
+  align-self: flex-start;
+}
+
+.primary-content {
+  width: 55%;
+}
+
+.primary-content h1 {
+  color: #136C72;
+  font-size: 36px;
+}
+
+.primary-content p {
+  color: #23424A;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: #136C72;
+  color: #fff;
+  text-align: center;
+  width: 35%;
+}
+
+.btn {
+  background-color: #38CFD9;
+  color: black;
+  font-size: 21px;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  margin: 2rem 0;
+  cursor: pointer;
+}
