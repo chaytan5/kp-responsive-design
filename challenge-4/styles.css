@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+  background-color: #23424A;
+}
+
+.container {
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.hero-content {
+  color: white;
+  width: 60%;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 21px;
+  font-weight: lighter;
+}
+
+.btn {
+  background-color: #38CFD9;
+  color: black;
+  font-size: 21px;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.col {
+  text-align: center;
+}
+
+.section {
+  background-color: #136C72;
+  color: white;
+}
+
+.row h2 {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.row-center h2 {
+  color: #87629A;
+}
