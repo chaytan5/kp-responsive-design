@@ -7,12 +7,16 @@
 body {
   margin: 0;
   padding: 0;
-
   font-family: 'Roboto', sans-serif;
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  margin-top: 0;
 }
 
 .flex {
@@ -27,7 +31,7 @@ img {
 }
 
 .container {
-  width: 80%;
+  width: 85%;
   max-width: 1128px;
   margin: 0 auto;
 }
@@ -47,7 +51,7 @@ img {
   font-weight: 900;
   font-size: 60px;
   color: #824936;
-  margin-top: 0;
+  line-height: 1.1;
 }
 
 .hero__subtitle {
@@ -111,4 +115,32 @@ img {
 .care {
   background-color: #824936;
   padding: 50px 0;
+}
+
+@media (max-width: 800px) {
+
+  .row,
+  .quality-designs__text {
+    flex-direction: column;
+  }
+
+  .custom-design__text,
+  .custom-design__img,
+  .care__text,
+  .care__img,
+  .quality-designs__text p {
+    width: 100%;
+  }
+
+  .hero__title {
+    font-size: 36px;
+  }
+
+  .custom-design__img {
+    margin-top: 2rem;
+  }
+
+  .care__img {
+    margin-bottom: 2rem;
+  }
 }
